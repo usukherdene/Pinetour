@@ -1618,7 +1618,7 @@
   display: flex;
   flex-direction: column;
 }
-.tier1-para {
+.tier1-para, .tier3para {
   width: 100%;
   height: 44px;
   margin: 0;
@@ -1634,7 +1634,7 @@
   color: #70787c;
   font-family: "Inter", sans-serif;
 }
-.tier1-name {
+.tier1-name, .tier3name {
   width: 100%;
   height: 20px;
   margin: 0;
@@ -1861,7 +1861,7 @@
   display: flex;
   align-items: center;
 }
-.tier2-line2 {
+.tier2-line2, .tier3line2 {
   width: 100%;
   height: 20px;
   margin: 0;
@@ -1872,24 +1872,13 @@
   display: flex;
   align-items: center;
 }
-.tier2-line3, .tier2-line4, .tier2-line5 {
+.tier2-line3, .tier2-line4, .tier2-line5, .tier2-line6, .tier3line3, .tier3line4, .tier1line5, .tier3line5, .tier3line6 {
   width: 100%;
   height: 20px;
   margin: 0;
   font-size: 13px;
   font-weight: 400;
   color: #141d21;
-  font-family: "Inter", sans-serif;
-  display: flex;
-  align-items: center;
-}
-.tier2-line6 {
-  width: 100%;
-  height: 20px;
-  margin: 0;
-  font-size: 13px;
-  font-weight: 400;
-  color: #70787c;
   font-family: "Inter", sans-serif;
   display: flex;
   align-items: center;
@@ -1928,7 +1917,86 @@
   width: 373px;
   height: 573px;
   margin: 0;
-  background-color: blue;
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tier3cont {
+  width: 277px;
+  height: 429px;
+  margin: 48px;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tier3tag {
+  width: 277px;
+  height: 24px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.tier3tag1 {
+  width: 140px;
+  height: 24px;
+  margin: 0;
+  background-color: #194553;
+  border-radius: 999px;
+  color: #D9EFF7;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tier3tag2 {
+  width: 96px;
+  height: 24px;
+  margin: 0;
+  background-color: #E6EFF5;
+  border-radius: 999px;
+  color: #D97706;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tier3price {
+  width: 277px;
+  height: 68px;
+  margin: 0;
+}
+.tier3includes {
+  width: 277px;
+  height: 273px;
+  margin: 0;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tier3button {
+  width: 277px;
+  height: 48px;
+  margin: 0;
+  background-color: #E6EFF5;
+  border-radius: 999px;
+  color: #065161;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px
+  ;
 }
 .promisepage {
   width: 1280px;
