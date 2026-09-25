@@ -2491,6 +2491,7 @@ footer {
   width: 101px;
   height: 44px;
   margin: 0;
+  margin-left: 105px;
   background-color: #2b697a;
   border-radius: 999px;
   display: flex;
@@ -2505,7 +2506,6 @@ footer {
   width: 363px;
   height: 36px;
   margin: 0;
-  background-color: red;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -2555,6 +2555,42 @@ footer {
   font-weight: 600;
   color: #40484b;
   font-family: "Inter", sans-serif;
+}
+.fa-envelope {
+  margin: 0;
+  margin-right: 8px;
+  margin-left: 12px;
+  color: #40484b;
+  width: 16px;
+}
+.finalicons {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  width: 200px;
+  height: 36px;
+}
+.earth, .camera, .comment {
+  background-color: white;
+  border-radius: 18px;
+  margin: 0;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-earth-americas, .fa-camera, .fa-comments {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  color: #065161;
+}
+.fa-map-location-dot {
+  width: 9px;
+  height: 13px;
+  color: #70787c;
 }
 /* 
 font-family: "Plus Jakarta Sans", sans-serif;
